@@ -1,0 +1,208 @@
+.center {
+    width: 15%;
+    height: 600px;
+    position: fixed;
+    left: 50%;
+    margin-left: -7.5%;
+    top: 50%;
+    margin-top: -300px;
+}
+
+.ad1 {
+    animation: adMove 0.5s;
+    animation-iteration-count: infinite;
+    max-width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.ad2 {
+    animation: adMove 0.7s;
+    animation-iteration-count: infinite;
+    max-width: 10%;
+    height: auto;
+    position: relative;
+}
+
+.ad3 {
+    animation: adMove 0.3s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad4 {
+    animation: adMove 0.5s;
+    animation-iteration-count: infinite;
+    max-width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.ad5 {
+    animation: adMove 0.4s;
+    animation-iteration-count: infinite;
+    max-width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.ad6 {
+    animation: adMove 0.59s;
+    animation-iteration-count: infinite;
+    max-width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.ad7 {
+    animation: adMove 0.9s;
+    animation-iteration-count: infinite;
+    max-width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.ad8 {
+     animation: adMove 0.714s;
+     animation-iteration-count: infinite;
+     max-width: 8%;
+     height: auto;
+     position: relative;
+}
+
+.ad9 {
+    animation: adMove 0.415s;
+    animation-iteration-count: infinite;
+    max-width: 28%;
+    height: auto;
+    position: relative;
+}
+
+.ad10 {
+    animation: adMove 0.83s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad11 {
+    animation: adMove 0.248s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad12 {
+    animation: adMove 0.648s;
+    animation-iteration-count: infinite;
+    max-width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.ad13 {
+    animation: adMove 0.4893s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad14 {
+    animation: adMove 0.56s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad15 {
+    animation: adMove 0.9654s;
+    animation-iteration-count: infinite;
+    max-width: 15%;
+    height: auto;
+    position: relative;
+}
+
+.ad16 {
+    animation: adMove 0.3789s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad17 {
+    animation: adMove 0.7854s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad18 {
+    animation: adMove 0.645378s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.ad19 {
+    animation: adMove 0.456s;
+    animation-iteration-count: infinite;
+    max-width: 30%;
+    height: auto;
+    position: relative;
+}
+
+@keyframes adMove {
+    0% { transform: translate(1px, 1px); }
+    10% { transform: translate(-1px, -2px); }
+    20% { transform: translate(-3px, 0px); }
+    30% { transform: translate(3px, 2px); }
+    40% { transform: translate(1px, -1px); }
+    50% { transform: translate(-1px, 2px); }
+    60% { transform: translate(-3px, 1px); }
+    70% { transform: translate(3px, 1px); }
+    80% { transform: translate(-1px, -1px); }
+    90% { transform: translate(1px, 2px); }
+    100% { transform: translate(1px, -2px); }
+}
+
+img {
+
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 2s infinite;
+    animation: bgcolor 2s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
