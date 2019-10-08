@@ -19,7 +19,7 @@
 .ad2 {
     animation: adMove 0.7s;
     animation-iteration-count: infinite;
-    max-width: 10%;
+    max-width: 200%;
     height: auto;
     position: relative;
 }
