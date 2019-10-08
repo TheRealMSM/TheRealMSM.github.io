@@ -160,6 +160,14 @@
     position: relative;
 }
 
+.ad20 {
+    animation: adMove 0.721s;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
 @keyframes adMove {
     0% { transform: translate(1px, 1px); }
     10% { transform: translate(-1px, -2px); }
